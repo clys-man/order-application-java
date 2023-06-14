@@ -1,7 +1,10 @@
 package edu.unifor.clysman;
 
+import edu.unifor.clysman.views.login.LoginView;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        LoginView loginPage = new LoginView();
+        loginPage.initialize();
     }
 }
